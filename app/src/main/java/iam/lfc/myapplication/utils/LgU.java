@@ -1,4 +1,4 @@
-package iam.lfc.myapplication;
+package iam.lfc.myapplication.utils;
 
 import android.text.TextUtils;
 import android.util.Log;

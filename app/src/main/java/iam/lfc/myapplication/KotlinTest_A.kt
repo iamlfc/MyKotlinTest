@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import iam.lfc.myapplication.base.BaseMain
+import iam.lfc.myapplication.utils.LgU
 import kotlinx.android.synthetic.main.activity_kontlin_test.*
 import java.util.*
 
