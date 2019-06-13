@@ -70,7 +70,7 @@ class ImgList_A : BaseMain(), MessagePicturesLayout.Callback {
 
     private fun initData() {
 
-
+        list_data.addAll(Data.get());
         imgAdapter!!.set(Data.get())
 
         if (true)

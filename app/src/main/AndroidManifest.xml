@@ -24,6 +24,8 @@
         </activity>
         <activity android:name=".KotlinTest_A">
         </activity>
+        <activity android:name=".RecyclerViewTest_A">
+        </activity>
     </application>
 
 </manifest>

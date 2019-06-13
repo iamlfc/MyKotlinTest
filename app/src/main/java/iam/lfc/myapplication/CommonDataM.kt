@@ -11,7 +11,7 @@ class CommonDataM {
     var value4: Int = 0
 
     constructor()
-    constructor(value1: String, value2: String, value3: String, value4: Int) {
+    constructor(value1: String, value2: String = "b", value3: String = "c", value4: Int) {
         this.value1 = value1
         this.value2 = value2
         this.value3 = value3

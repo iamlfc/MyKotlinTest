@@ -31,6 +31,7 @@ class MyAdapter : CommonAdapter<Data> {
     constructor(context: Context?, layoutId: Int = R.layout.recycler_main_message, datas: MutableList<Data>?, showtype: Int) : super(context, layoutId, datas) {
         this.showType = showtype
         this.myContext = context
+        this.list_data = datas!!;
     }
 
     override fun convert(holder: ViewHolder?, t: Data?, position: Int) {

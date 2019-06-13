@@ -4,12 +4,17 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import iam.lfc.myapplication.Share.OnGetDataCallBack
 import iam.lfc.myapplication.base.BaseMain
 import iam.lfc.myapplication.utils.LgU
 import kotlinx.android.synthetic.main.activity_kontlin_test.*
 import java.util.*
 
-class KotlinTest_A : BaseMain() {
+class KotlinTest_A : BaseMain(), OnGetDataCallBack {
+    override fun OnGetDataListener(index: Int?) {
+
+    }
+
     companion object {
         fun EnterThis(context: Context, string: String, int: Int) {
             var intent = Intent(context, KotlinTest_A().javaClass)
